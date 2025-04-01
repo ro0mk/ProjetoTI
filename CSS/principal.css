@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(118deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.727) 100%), url(../img/index_img/pexels-william-choquette-1954524.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heroheading {
+    font-size: 3rem;
+}
+
+.herobody {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.herobtn {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.herobtn:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.container a {
+    color: white;
+}
+
+.container {
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container2 img {
+    margin: 2rem;
+    padding: 2rem;
+    width: 500px;
+}
+
+.container2text {
+    margin: 2rem 0rem 2rem 0;
+    padding: 2rem 0rem 2rem 0;
+}
+
+.container2text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 30%;
+}
+
+.container2text h1 {
+    font-size: 2.5rem;
+}
+
+.container2text p.ctxt {
+    margin-top: 50px;
+}
+
+.container2text .btnadere {
+    margin-top: 50px;
+}
+
+.btnadere {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: #FE2D2F;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    padding: 12px 30px 12px 30px;
+}
+
+.btnadere:hover {
+    background-color: #FE2D2F;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .login-wrapper {
+        display: none;
+    }
+
+    .menu-direito {
+        width: 0;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 986px) {
+    .btnadere {
+        padding: 12px 7px 12px 7px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2text {
+        margin: 0%;
+        width: 90%;
+    }
+
+    .container2 img {
+        margin: 0;
+        width: 400px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 467px) {
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container2 img {
+        width: 374px;
+    }
+}
